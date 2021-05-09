@@ -124,7 +124,7 @@ input[type=submit]:hover {
 
 .container-contact {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #66b3ff;
   padding: 20px;
 }
 
@@ -147,9 +147,6 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
-
-
-
 
 
 .footer-1 {
@@ -205,13 +202,7 @@ input[type=submit]:hover {
         .card {
             width: 40%;
         }
-/*
 
-        .contact-card {
-            width: 40%;
-        }
-    }
-*/
 
     @media screen and (max-width: 768px) {
 		
@@ -230,12 +221,7 @@ input[type=submit]:hover {
          .card-2 {
             width: 80%;
         }  
-/*
-    .contact-card {
-    width: 80%;
-}
-	}
-*/
+
 
 @media screen and (max-width: 620px) {
     .container {
@@ -253,12 +239,7 @@ input[type=submit]:hover {
          .card-2 {
             width: 80%;
         }  
-/*
-.contact-card {
-    width: 80%;
-}
-}
-*/
+
 @media screen and (max-width: 375px) {
     .container {
         width: 100%;
@@ -287,12 +268,7 @@ input[type=submit]:hover {
         padding:5px;
         }  
 		
-		/*
-.contact-card {
-    width: 45%;
-    padding:5px;
-}
-*/
+
 .img100{
     width:100%;
 
@@ -306,13 +282,5 @@ input[type=submit]:hover {
     background: linear-gradient(to right, #ff416c, #ff4b2b);
     color: #fff;
 }
-/*
-.contact-header{
-    text-align: center;
-    padding: 10px 10px;
-	font-size:10px;
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-    color: #fff;
-}
-*/
+
 }
