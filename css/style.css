@@ -24,7 +24,7 @@
 body {
     background: #FFF5EE;
     font-family: Poppinssans-serif;
-	fontsize:16px;
+
 }
 
 
@@ -202,7 +202,7 @@ input[type=submit]:hover {
         .card {
             width: 40%;
         }
-
+	}
 
     @media screen and (max-width: 768px) {
 		
@@ -221,7 +221,7 @@ input[type=submit]:hover {
          .card-2 {
             width: 80%;
         }  
-
+	}
 
 @media screen and (max-width: 620px) {
     .container {
@@ -239,7 +239,7 @@ input[type=submit]:hover {
          .card-2 {
             width: 80%;
         }  
-
+}
 @media screen and (max-width: 375px) {
     .container {
         width: 100%;
@@ -269,11 +269,11 @@ input[type=submit]:hover {
         }  
 		
 
-.img100{
-    width:100%;
+	.img100{
+		width:100%;
 
+	}
 }
-
 
 .card-header {
     text-align: center;
@@ -283,4 +283,4 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-}
+
