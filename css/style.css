@@ -1,4 +1,4 @@
-﻿* {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,6 +16,11 @@
     align-items: center;
     padding: 15px 15px;
 }
+
+.img100{
+    width:100%;
+}
+
 body {
     background: #FFF5EE;
     font-family: sans-serif;
@@ -162,6 +167,7 @@ body {
 
 
     @media screen and (max-width: 768px) {
+		
         .container {
             width: 100%;
         }
@@ -174,11 +180,12 @@ body {
         .card {
             width: 80%;
         }
-    }
+   
 
     .contact-card {
     width: 80%;
 }
+	}
 
 
 @media screen and (max-width: 620px) {
@@ -194,28 +201,28 @@ body {
     .card {
         width: 80%;
     }
-}
+
 
 .contact-card {
     width: 80%;
 }
-
+}
 @media screen and (max-width: 375px) {
     .container {
         width: 100%;
     }
     .logo {
-        padding: 15px 15px 15px;
+        padding: 5px 5px 5px;
 
     }
-    .logoname {
-        padding: 15px 15px 15px;
+    .logo-name {
+        padding: 5px 5px 5px;
         font-size: 15px;
         text-align:center;
     }
-    }
+    
     .heading {
-        padding: 15px 15px 15px;
+        padding: 5px 5px 5px;
         font-size: 15px;
     }
 
@@ -234,3 +241,20 @@ body {
 
 }
 
+
+.card-header {
+    text-align: center;
+    padding: 10px 10px;
+	font-size:10px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+}
+
+.contact-header-header {
+    text-align: center;
+    padding: 10px 10px;
+	font-size:10px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+}
+}
